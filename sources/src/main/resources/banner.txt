@@ -1,0 +1,10 @@
+${AnsiColor.BRIGHT_RED}  _   _                  _                   _
+${AnsiColor.BRIGHT_RED} | \ | |                | |                 | |
+${AnsiColor.BRIGHT_RED} |  \| |   ___    ___   | |_    ___    ___  | |__
+${AnsiColor.BRIGHT_RED} | . ` |  / _ \  / _ \  | __|  / _ \  / __| | '_ \
+${AnsiColor.BRIGHT_RED} | |\  | |  __/ | (_) | | |_  |  __/ | (__  | | | |
+${AnsiColor.BRIGHT_RED} |_| \_|  \___|  \___/   \__|  \___|  \___| |_| |_|
+
+
+${AnsiColor.BRIGHT_BLUE}:: Neotech Java Task :: Running Spring Boot ${spring-boot.version} ::
+:: http://neotech.ee/ ::${AnsiColor.DEFAULT}

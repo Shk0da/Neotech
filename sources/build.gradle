@@ -1,0 +1,35 @@
+/*
+ * Neotech Java Task - консольное java приложение, работающее с базой данных и временем.
+ */
+
+buildscript {
+    ext {
+        springBootVersion = '2.0.4.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+group = 'ee.neotech'
+version = '1.0'
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('org.liquibase:liquibase-core')
+    runtime('mysql:mysql-connector-java')
+    testCompile('com.h2database:h2')
+    testCompile('org.springframework.boot:spring-boot-starter-test') }

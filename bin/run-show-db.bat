@@ -1,0 +1,1 @@
+java -jar javatask-1.0.jar -p
